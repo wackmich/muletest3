@@ -28,4 +28,9 @@ jobs:
     - name: show maven version
       run: mvn -v
 
+    - name: Build and Publish to Exchange
+      run: mvn -B deploy -s settings.xml -Dapp.password=$PASSWORD -Dapp.username=$USERNAME
+      env:
+        USERNAME: ${{ secrets.USERNAME }}
+        PASSWORD: ${{ secrets.PASSWORD }}
         
