@@ -5,6 +5,7 @@
 	<groupId>1c7adce9-1013-4ffa-880e-05549ce461aa</groupId>
 	<artifactId>mycommerce</artifactId>
 	<version>1.0.0</version>
+	
 	<packaging>mule-application</packaging>
 
 	<name>mycommerce</name>
