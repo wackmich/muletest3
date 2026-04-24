@@ -32,5 +32,5 @@ jobs:
       run: mvn -B deploy -s settings.xml -Dapp.password=$PASSWORD -Dapp.username=$USERNAME
       env:
         USERNAME: ${{ secrets.USERNAME }}
-        PASSWORD: ${{ secrets.PASSWORD }}
+        PASSWORD: ${{ secrets.PASSWORT }}
         
